@@ -1,0 +1,23 @@
+{
+  "name": "es-develop-utils",
+  "version": "1.0.0",
+  "description": "javascript utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "babel src --out-dir dist --presets=@babel/env"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "sundaijie",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4"
+  }
+}
